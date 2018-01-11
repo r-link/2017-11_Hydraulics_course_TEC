@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Protocolo de medici\IeC {\'o}n}{2}{0}{1}
+\beamer@sectionintoc {2}{Referencias}{32}{0}{2}

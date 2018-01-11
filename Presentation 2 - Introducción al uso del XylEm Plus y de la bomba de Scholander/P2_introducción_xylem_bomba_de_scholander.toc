@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\select@language {spanish}
+\beamer@sectionintoc {1}{XylEm Plus}{2}{0}{1}
+\beamer@sectionintoc {2}{Bomba de Scholander}{27}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{38}{0}{3}

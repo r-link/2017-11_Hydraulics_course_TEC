@@ -1,0 +1,41 @@
+\footnotesize
+\begin{lstlisting}
+> # > resultados del modelo
+> summary(mod2)
+Nonlinear mixed-effects model fit by maximum likelihood
+  Model: PLC ~ 100/(1 + exp(slope * (psi - p50)))
+ Data: data1
+       AIC      BIC    logLik
+  325.2443 337.4552 -154.6222
+
+Random effects:
+ Formula: list(slope ~ 1, p50 ~ 1)
+ Level: palm
+ Structure: General positive-definite, Log-Cholesky param...
+                  StdDev       Corr
+slope.(Intercept) 1.795721e-04 sl.(I)
+p50.(Intercept)   2.039200e-05 0
+Residual          2.284592e+01
+
+
+
+
+Fixed effects: slope + p50 ~ plot
+                      Value Std.Error DF   t-value p-value
+slope.(Intercept)  0.567227 0.2156021 19  2.630897  0.0165
+slope.plotHO3      0.827329 0.6499720 19  1.272869  0.2184
+p50.(Intercept)   -3.422122 0.4913243 19 -6.965098  0.0000
+p50.plotHO3        1.534501 0.5443090 19  2.819173  0.0110
+ Correlation:
+                sl.(I) sl.HO3 p50.(I
+slope.plotHO3   -0.332
+p50.(Intercept)  0.055 -0.018
+p50.plotHO3     -0.050 -0.124 -0.903
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max
+-1.7554167 -0.7472870 -0.1248341  0.3211212  2.1884542
+
+Number of Observations: 34
+Number of Groups: 12
+\end{lstlisting}

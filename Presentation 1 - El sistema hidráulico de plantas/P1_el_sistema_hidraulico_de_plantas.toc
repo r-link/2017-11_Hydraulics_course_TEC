@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Transporte de agua en plantas}{3}{0}{1}
+\beamer@sectionintoc {2}{El potencial h\IeC {\'\i }drico}{17}{0}{2}
+\beamer@sectionintoc {3}{Conductividad hidr\IeC {\'a}ulica}{26}{0}{3}
+\beamer@sectionintoc {4}{Curvas de vulnerabilidad}{44}{0}{4}
+\beamer@sectionintoc {5}{Referencias}{57}{0}{5}
